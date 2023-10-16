@@ -6,7 +6,6 @@ cursor: pointer;
 display: flex;
 align-items: center;
 justify-content: space-between;
-background-color: black;
 position: relative;
 }
 
@@ -14,8 +13,6 @@ position: relative;
  width: 15px;
  height: 15px;
  border-radius: 50%;
- background-color: #fff;
  position: absolute;
- left: 1px;
 }
 
