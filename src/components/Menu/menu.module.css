@@ -13,7 +13,11 @@
 }
 
 .items{
-
+ margin-top: 35px;
+ margin-bottom: 50px;
+ display: flex; 
+ flex-direction: column;
+ gap: 35px;
 }
 
 .item{
@@ -49,7 +53,7 @@
  width: max-content;
 }
 
-.travel{
+.category.travel{
  background-color: #ff7857;
 }
 
