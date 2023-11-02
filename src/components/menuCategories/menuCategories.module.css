@@ -6,21 +6,21 @@
  gap: 20px;
 }
 
-.categoryList {
+.categoryItem {
  padding: 10px 25px;
  border-radius: 10px;
  font-size: 14px;
 }
 
-.categoryItem.style {
+.categoryItem.data {
  background-color: #57c4ff31;
 }
 
-.categoryItem.fashion {
+.categoryItem.defi {
  background-color: #7fb88133;
 }
 
-.categoryItem.food {
+.categoryItem.ai {
  background-color: #7fb88133;
 }
 
@@ -28,7 +28,7 @@
  background-color: #ff795736;
 }
 
-.categoryItem.culture {
+.categoryItem.cryptocurrency {
  background-color: #ffb04f45;
 }
 
