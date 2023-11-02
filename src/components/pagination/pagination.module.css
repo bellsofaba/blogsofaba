@@ -1,2 +1,14 @@
 .container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.button {
+ width: 100px;
+ border: none;
+ border-radius: 10%;
+ padding: 16px;
+ background-color: crimson;
+ color: #fff;
+ cursor: pointer;
 }
