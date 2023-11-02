@@ -10,7 +10,7 @@ const CategoryList = () => {
       <div className={styles.categories}>
         <Link
           href="/blog?cat=style"
-          className={`${styles.category} ${styles.style}`}
+          className={`${styles.category} ${styles.data}`}
         >
           <Image
             src="/style.png"
@@ -19,9 +19,9 @@ const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          style
+          Data
         </Link>
-        <Link href={`/blog`} className={`${styles.category} ${styles.fashion}`}>
+        <Link href={`/blog`} className={`${styles.category} ${styles.defi}`}>
           <Image
             src="/fashion.png"
             alt=""
@@ -29,9 +29,9 @@ const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          fashion
+          DeFi
         </Link>
-        <Link href={`/blog`} className={`${styles.category} ${styles.food}`}>
+        <Link href={`/blog`} className={`${styles.category} ${styles.ai}`}>
           <Image
             src="/food.png"
             alt=""
@@ -39,9 +39,9 @@ const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          food
+          AI
         </Link>
-        <Link href={`/blog`} className={`${styles.category} ${styles.travel}`}>
+        <Link href={`/blog`} className={`${styles.category} ${styles.web3}`}>
           <Image
             src="/travel.png"
             alt=""
@@ -49,9 +49,9 @@ const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          travel
+          Web3
         </Link>
-        <Link href={`/blog`} className={`${styles.category} ${styles.culture}`}>
+        <Link href={`/blog`} className={`${styles.category} ${styles.crypto}`}>
           <Image
             src="/culture.png"
             alt=""
@@ -59,7 +59,7 @@ const CategoryList = () => {
             height={32}
             className={styles.image}
           />
-          culture
+          crypto
         </Link>
         <Link href={`/blog`} className={`${styles.category} ${styles.coding}`}>
           <Image
