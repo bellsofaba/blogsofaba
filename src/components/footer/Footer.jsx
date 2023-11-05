@@ -12,10 +12,7 @@ const Footer = () => {
           <h1 className={styles.logoText}>bellsOfaba</h1>
         </div>
         <p className={styles.desc}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
-          necessitatibus similique aspernatur obcaecati veritatis. Aperiam cum
-          porro sequi, totam minima consequuntur, aspernatur deleniti vero
-          repellendus dorales.
+        Welcome to bellsOfaba&squo;s blogsOfaba, where creativity meets  productivity for all things tech related. I am passionate about web development, coding, stoicism, anime, writing, web3, crypto, and astronomy. Feel free to Sign Up and add your contributions. 
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />
