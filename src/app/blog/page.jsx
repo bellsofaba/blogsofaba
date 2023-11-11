@@ -6,7 +6,6 @@ const BlogPage = ({ searchParams }) => {
   const page = parseInt(searchParams.page) || 1;
   const { data } = searchParams;
 
-
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Data Blog</h1>
