@@ -7,7 +7,7 @@ const SinglePage = () => {
     <div className={styles.container}>
       <div className={styles.infoContainer}>
         <div className={styles.textContainer}>
-          <h1>Lorem ipsum dolor sit amet.</h1>
+          <h1 className={styles.title}>Lorem ipsum dolor sit amet.</h1>
           <div className={styles.user}>
             <div className={styles.userImageContainer}>
               <Image src="./p1.jpeg" alt="" fill className={styles.image} />
