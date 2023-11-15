@@ -29,7 +29,7 @@ const Comments = () => {
               <span className={styles.username}>bellsOfaba</span>
               <span className={styles.date}>11.13.2023</span>
             </div>
-            <p>
+            <p className={styles.description}>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias vel veritatis atque similique ex, sequi deleniti saepe ab animi repudiandae?
             </p>
           </div>
