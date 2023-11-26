@@ -1,5 +1,4 @@
 'use client';
-
 import Link from 'next/link';
 import styles from './authLinks.module.css';
 import { useState } from 'react';
@@ -8,10 +7,10 @@ import { signOut } from 'next-auth/react';
 const AuthLinks = () => {
   const [open, setOpen] = useState(false);
 
-  const status = 'authenticated';
+  const {status} = useSession();
   return (
     <>
-      {status === 'notauthenticated' ? (
+      {status === "unauthenticated" ? (
         <Link href="/login" className={styles.link}>
           Login
         </Link>
